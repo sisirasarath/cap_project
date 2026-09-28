@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JanSeva AI - Public Grievance Management & Government Scheme Recommendation</title>
+  <meta name="description" content="AI-Powered Citizen Assistance Portal for Intelligent Public Grievance Management and Government Scheme Recommendation.">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body class="h-full bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-white overflow-x-hidden">
+  
+  <!-- Root Container -->
+  <div id="app" class="min-h-screen flex flex-col"></div>
+
+  <!-- Self-Contained Bundle Script -->
+  <script src="./src/bundle.js"></script>
+</body>
+</html>
